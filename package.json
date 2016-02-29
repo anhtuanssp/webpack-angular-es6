@@ -12,6 +12,8 @@
     "webpack": "webpack",
     "gulp": "gulp --gulpfile app/page1/gulpfile.js",
     "page1": "npm run gulp",
+	"gulp2": "gulp --gulpfile app/exmpleNg/gulpfile.js",
+    "page2": "npm run gulp2",
     "start": "webpack-dev-server"
   },
   "keywords": [
@@ -29,6 +31,8 @@
     "babel-preset-es2015": "^6.5.0",
     "concurrently": "^2.0.0",
     "gulp": "^3.9.1",
+	"file-loader": "^0.8.4",
+    "html-loader": "^0.3.0",
     "html-webpack-plugin": "^2.9.0",
     "lodash": "^4.5.1",
     "webpack": "^1.12.14",
