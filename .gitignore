@@ -1,0 +1,6 @@
+# Folders
+/node_modules/
+
+# File types
+*.log
+.DS_Store
